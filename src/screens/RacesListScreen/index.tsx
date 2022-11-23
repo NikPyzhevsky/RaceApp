@@ -2,7 +2,7 @@ import React, {useEffect} from 'react';
 import {ActivityIndicator, FlatList, Linking, Text, View} from 'react-native';
 import {useAppDispatch, useAppSelector} from '../../store';
 import {RootState} from '../../store/store';
-import {PAGE_LIMIT} from '../../constantы/driversList';
+import {PAGE_LIMIT} from '../../constants/driversList';
 import {styles} from './styles';
 import {useRoute} from '@react-navigation/native';
 import {RacesListScreenRouteProp} from '../../navigation/types';
